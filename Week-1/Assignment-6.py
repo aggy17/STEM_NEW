@@ -1,0 +1,12 @@
+#make a receipt
+print("+++++++++++++++++++++++++++++++++++++++++++++++++")
+print("|                equity bank                    |")
+print("|              kilimani  branch                 |")
+print("|             8th february 2023                 |")
+print("|                                               |")
+print("|  first name:Kaylyn                            |")
+print("|  second name:Alexis                           |")
+print("|  account number:098764kmq                     |")
+print("|  account balance:ksh.120,760.50               |")
+print("|                                               |")
+print("+++++++++++++++++++++++++++++++++++++++++++++++++")
