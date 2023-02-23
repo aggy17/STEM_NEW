@@ -30,7 +30,18 @@ print()
 student = {"name":"agnes","age":17}
 print(student["name"])
 print(student["age"])
-
-
-
 #"name":"agnes" -> name..key  agnes..value
+
+#4.sets.......used to store multiple items
+#uses {}
+myFruits = {"banana","cherry","apple","mangoes"}
+print(myFruits)
+for fruit in myFruits:
+    print(fruit)
+print(type(myFruits))
+print(len(myFruits))    
+
+#ordered.....similar data types
+#non ordered.....diff data types
+#eg..{"pencil",23,"false"}
+
