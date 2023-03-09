@@ -6,8 +6,10 @@
 #date : 23rd Feb 2023
 #file : assignment4.py
 #factorial 6
-def factorial (n):
-    for i in range(0,n):
-     fact_n = n * (n-1)
-     return fact_n
-print(factorial(6))
+def factorial (num):
+    factorial = 1
+
+    return factorial
+
+    for i in range(n):
+     print (factorial(6))

@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/JKUAT-Main-Campus-Gate-A.jpg);
+    background-position:center;
+    background-size:cover ;
+
+
+}
+.nav{
+    top: 10%;
+    display:flex;
+    padding: 2px 15px;
+    justify-content: space-between;
+    position:absolute;
+
+
+}
+nav img{
+    width: 150px; 
+}
+
+.nav-links{
+    flex: 1%;
+    text-align:right;
+    font-size:medium;
+    font-style: italic;
+    font-weight: bold;
+}
+.nav-links ul li{
+    list-style: none;
+    display:inline-block;
+    padding: 4px 5px;
+    position:relative;
+    color:rgb(8, 8, 7)
+}
+.nav-links ul li a{
+    color:rgb(227, 231, 243);
+    text-decoration: solid;
+    font: size 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align:right;
+}
+.text-box{
+  color:#150202;  
+  font-size: x-large;  
+  position:right;
+  top: 30%;
+  left: 50%;
+  height: 40%;
+  display:in-line;
+}
+.text-box h1{
+    color: rgb(28, 105, 230);
+    position:relative ;
+    font: weight 60000px;
+    text-decoration-line: underline; 
+    padding: 2px 60px; 
+}
+.text-box p{
+    color: #0b0105;
+    position:initial ;
+    padding: 0px ;
+    font-size: xx-large;
+}
+.hero-btn{
+    display:inline;
+    text-decoration:none;
+    color: rgb(17, 21, 27);
+    border: 1px solid #f7f5f7;
+    padding: 0px 20px;
+    background:purple;
+    position:center;
+    cursor: pointer;
+
+}
+.hero-btn:hover{
+    border:1px solid #e8f1f5;
+    background:#e30da0;
+    transition: 1s;
+}
+.add-links{
+    position:absolute;
+}
