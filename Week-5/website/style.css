@@ -6,7 +6,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: url(images/JKUAT-Main-Campus-Gate-A.jpg);
+    background-image: url(images/banner.png);
     background-position:center;
     background-size:cover ;
 
@@ -47,7 +47,7 @@ nav img{
     text-align:right;
 }
 .text-box{
-  color:#150202;  
+  color:#faf7f7;  
   font-size: x-large;  
   position:right;
   top: 30%;
@@ -63,7 +63,7 @@ nav img{
     padding: 2px 60px; 
 }
 .text-box p{
-    color: #0b0105;
+    color: #800939;
     position:initial ;
     padding: 0px ;
     font-size: xx-large;

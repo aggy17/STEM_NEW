@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <body>
+            <h3 id="text"> Javascript Basics </h3>
+            <h3 id="f_name"></h3>
+            <h3 id="s_name"></h3>
+            <h3 id="full_name"></h3>
+            <h3 id="age"></h3>
+            <h3 id="weight"></h3>
+            <h3 id="f_num"></h3>
+            <h3 id="s_num"></h3>
+            <h3 id="sum"></h3>
+            <h3 id="fruits"></h3>
+
+
+
+            <script>
+                //variables in Javascript
+                //number
+               var f_num = 12;
+               var s_num = 10;
+               var sum = f_num + s_num
+               //arithmetic operators
+              // +,-,/,*,%(modulus)
+        var f_num = 12;
+        var s_num = 10;
+
+        var sum = f_num + s_num
+        var sub = f_num - s_num
+        var div = f_num / s_num
+        var prod = f_num * s_num
+        var mod = f_num % s_num
+        
+    
+               //string
+               var my_first_name = "Agnes"
+               var my_second_name = "munyiva"
+               var full_name = my_first_name + " " + my_second_name;
+               var age = 17;
+               var weight = 55;
+               //arrays []
+               let fruits =["oranges","mangoes","banana"]
+               let my_fruit =fruits[0];
+               //conditions
+               if(age > 18 ){
+                msg="you can drive";
+               }else(age < 18);{
+                msg = "still too young to drive";
+               }
+               document.getElementById("f_name").innerHTML = my_first_name;
+               document.getElementById("s_name").innerHTML = my_second_name;
+               document.getElementById("full_name").innerHTML = full_name;
+               document.getElementById("age").innerHTML = age;
+               document.getElementById("weight").innerHTML = weight;
+               document.getElementById("f_num").innerHTML = f_num;
+               document.getElementById("s_num").innerHTML = s_num;
+               document.getElementById("sum").innerHTML = sum;
+               document.getElementById("fruits").innerHTML = msg;
+
+        
+
+
+
+
+            </script>
+          <button> CLICK ME </button>  
+        </body>
+    </head>
+</html>
