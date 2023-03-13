@@ -1,8 +1,24 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="style.css">
+
         <body>
+            <h3> LOG IN SYSTEM </h3>
+            <label for="">name</label><br>
+            <input type="text"><br>
+            <label for="">age</label><br>
+            <input type="int"><br>
+            <button id="confirm.btn"> CONFIRM </button>
+            <h3 id="get_in">you can get in </h3>
+            <h1 id="number"> 0 </h1>
+            <button id="increase_btn">increase</button>
+            <button id="decrease_btn">decrease</button>
+            <button id="reset_btn">reset</button>
+
+
+        
+
+            <!--
             <h3 id="text"> Javascript Basics </h3>
             <h3 id="f_name"></h3>
             <h3 id="s_name"></h3>
@@ -13,7 +29,7 @@
             <h3 id="s_num"></h3>
             <h3 id="sum"></h3>
             <h3 id="fruits"></h3>
-
+        
 
 
             <script>
@@ -63,9 +79,53 @@
 
 
 
+            -->
+<script>
+    var number = 0
+    document.getElementById("increase_btn").onclick=function increase_number(){
+        number += 1;
+        console.log(number)
+        document.getElementById("number").value =number
+    }
+//decrease
+var number = 0
+    document.getElementById("decrease_btn").onclick=function decrease_number(){
+        number -= 1;
+        console.log(number)
+        document.getElementById("number").value =number
+    }
 
-            </script>
-          <button> CLICK ME </button>  
+//reset
+var number = 0
+    document.getElementById("reset_btn").onclick=function reset_number(){
+        number += 1;
+        console.log(number)
+        document.getElementById("number").value =number
+    }
+//let age = 0
+let msg =""
+function add_num(num1,num2)
+{
+    return num1 + num2
+}
+
+document.getElementById("confirm.btn").onclick=function check_age(){
+console.log("button clicked!")
+var age = document.getElementById("age").Value
+console.log(age)
+}
+if ("age <= 18"){
+    msg="you are not allowed"
+    console.log("you are not allowed")
+    document.getElementById("get_in").innerHTML =msg
+}else{
+    msg="welcome"
+    console.log("welcome")
+    document.getElementById("get_in").innerHTML =msg
+
+}
+ </script>
+          
         </body>
-    </head>
+    
 </html>
