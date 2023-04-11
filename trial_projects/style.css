@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+.header{
+        min-height: 100vh;
+        width: 100%;
+        background-image: url(project1images/591bf2b08e96ac1e0fe100e38971ea44.jpg);
+        background-position:center;
+        background-size:cover ;
+
+}
+.p{
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    text-decoration: underline;
+    color:navy;
+
+}
+.p1{
+    padding-left: 1%;
+    padding-top: 3%;
+}
+.p2{
+    color: #e9ecf0;
+    padding-left: 5%;
+    padding-top: 2%;
+
+}
+.p3{
+    padding-top: 2%;
+    font-size:larger ;
+    font-weight: bold;
+    color: beige;
+    text-align: center;
+    text-decoration: dotted;
+}
+.prod{
+    padding-left: 10%;
+    justify-content:space-between;
+}
+.names{
+    padding-left: 10%;
+    font-weight: 300;
+    text-align: justify;
+    justify-content:space-between;
+
+}
